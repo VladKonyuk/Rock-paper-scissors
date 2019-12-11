@@ -6,7 +6,7 @@ let playerScore = 0;
 function computerPlay() {
 
     let randomNum = Math.floor(Math.random() * 3);
-    let computerChoice = choiceStack[randomNum];
+    let computerChoice = options[randomNum];
     return computerChoice;
 }
 
